@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "opencv-practice"
+version = "0.1.0"
+description = ""
+authors = ["Sei Miyagawa <sesshi0921@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+numpy = "^1.26.4"
+opencv-python = "^4.9.0.80"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
